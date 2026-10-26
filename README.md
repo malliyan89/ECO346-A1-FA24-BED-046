@@ -1,5 +1,6 @@
 # ECO346-A1-FA24-BED-046
 
+**Name:** Muhammad Aaliyan  
 **Course:** ECO346 Data Visualization Techniques for Economists  
 **Assignment:** 1, Fall 2026  
 **Registration no.:** FA24-BED-046  
@@ -158,7 +159,7 @@ R 4.6.1; ggplot2 4.0.3; svglite 2.2.2; scales 1.4.0. Python 3.14.8; pandas 3.1.0
 
 For submission, use these values:
 
-- **F1:** Name: [your name]; FA24-BED-046; Section B; Variant 6.
+- **F1:** Name: Muhammad Aaliyan; FA24-BED-046; Section B; Variant 6.
 - **F2:** https://github.com/malliyan89/ECO346-A1-FA24-BED-046
 - **F3:** Q2: 1,464 students; weighted median Rs 3,500; unweighted median Rs 3,000; p10 Rs 600; p90 Rs 18,700; ratio 31.17; 1 excluded. Q3: women 15-19 33.3%, men 15-19 63.8%; women 55-59 3.5%, men 55-59 39.7%; largest gap 40-44 at 47.9 pp. Q5: R 33.3%, Python 33.3%.
 - **F4:** The four answers above, each within its word limit.
