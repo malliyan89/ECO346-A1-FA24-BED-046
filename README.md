@@ -71,7 +71,7 @@ The default figure of Question 4 was committed before the Question 3 redesign. T
 | `bba2d06` | Redesign literacy figure with weighted conditional means (Question 3) |
 | `e1a1483` | Add Python replication and R-Python table check (Question 5) |
 
-The final commits add this README and the slides.
+The remaining commits add this README, the slides, and small documentation fixes.
 
 ## Data and sample
 
@@ -91,7 +91,7 @@ The weighted mean is `sum(w * x) / sum(w)`. The weighted p-th quantile is the sm
 
 **Numbers.** Students: 1,464. Plotted: 1,463. Excluded: 1 (Rs 30, outside Rs 100-1,000,000). Weighted median: Rs 3,500. Unweighted median: Rs 3,000. Weighted 10th percentile: Rs 600. Weighted 90th percentile: Rs 18,700. Ratio p90/p10: 31.17.
 
-**Answer (77 words).** The distribution is strongly right-skewed: the weighted 90th percentile (Rs 18,700) is 31.17 times the 10th (Rs 600). The weighted median is Rs 3,500, Rs 500 above the unweighted median. Just under half the weight (48.8%) lies below Rs 3,000, although half the students do; the Rs 3,000-3,500 bin pushes cumulative weight past 50%. Weights are nearly uncorrelated with spending (r = -0.01), so the medians are close and the gap is small beside the 31-fold spread.
+**Answer (71 words).** The distribution is strongly right-skewed: the weighted 90th percentile (Rs 18,700) is 31.17 times the 10th (Rs 600). The weighted median is Rs 3,500, Rs 500 above the unweighted median. At or below Rs 3,000 sit 48.8% of the weight but 50.1% of the students, so the unweighted median is Rs 3,000. Cumulative weight reaches only 49.7% below Rs 3,500; the 1.6% exactly at Rs 3,500 then carries it past 50%.
 
 ## Question 3: literacy by age and sex
 
@@ -125,7 +125,7 @@ The weighted mean is `sum(w * x) / sum(w)`. The weighted p-th quantile is the sm
 
 **Redesign:** the Question 3 figure above.
 
-**Answer (126 words).** The default plots 5,677 individual 0/1 outcomes, so points overplot and the conditional mean is invisible. The redesign replaces them with weighted band-by-sex means: position on a common scale is the strongest perceptual channel (Ch. 1), and conditional means answer the question directly. Colour now encodes sex, and each series is labelled at its end, so preattentive grouping replaces a legend lookup (Ch. 2). Hollow markers flag thin cells and a direct annotation marks the largest gap, encoding reliability and guiding attention (Ch. 4). Removing the grey panel and adding a finding title and source caption raises the data-ink ratio (Ch. 3). What the default shows that the redesign hides is the full individual-level spread: the raw 0/1 values, within-band heterogeneity and the exact age distribution.
+**Answer (127 words).** The default plots 5,677 individual 0/1 outcomes, so points overplot and the conditional mean is invisible. The redesign replaces them with weighted band-by-sex means: position on a common scale is the strongest perceptual channel (Ch. 1), and conditional means answer the question directly. Colour now encodes sex, and each series is labelled at its end, so preattentive grouping replaces a legend lookup (Ch. 2). Hollow markers would flag thin cells and a direct annotation marks the largest gap, encoding reliability and guiding attention (Ch. 4). Removing the grey panel and adding a finding title and source caption raises the data-ink ratio (Ch. 3). What the default shows that the redesign hides is the full individual-level spread: the raw 0/1 values, within-band heterogeneity and the exact age distribution.
 
 ## Question 5: second language, Python
 
@@ -135,7 +135,7 @@ The weighted mean is `sum(w * x) / sum(w)`. The weighted p-th quantile is the sm
 
 The two tables are in `outputs/band_table_r.csv` and `outputs/band_table_python.csv`; the check is in `outputs/table_comparison.txt`.
 
-**Answer (63 words).** R and Python agree to one decimal: women aged 15-19 are 33.3% literate in R and 33.3% in Python. The clearest default difference was the vertical axis: matplotlib autoscaled to the observed rates, stopping near 64%, while the R figure is fixed at 0-100. I set the Python axis to 0-100 and matched the x limits, colours, markers, line widths and direct labels.
+**Answer (60 words).** R and Python agree to one decimal: women aged 15-19 are 33.3% literate in R and 33.3% in Python. The clearest default difference was the vertical axis: matplotlib autoscaled from about -2% to 67%, while the R figure is fixed at 0-100. I set the Python axis to 0-100 and matched the x limits, colours, line widths and direct labels.
 
 ## Question 6: slides
 
@@ -146,7 +146,7 @@ Four slides: the variant, the makeover with default and redesign side by side, t
 ## Method notes
 
 - The histogram uses 40 bins of 0.1 log10 units from 2.0 to 6.0. Density is the weighted share of students in a bin divided by 0.1, so it is density per log10 unit and integrates to 1.
-- The weighted median and 90th percentile in Question 2 use the assignment's cumulative-weight definition. The unweighted median is included only for the comparison requested in the question.
+- The weighted median and 90th percentile in Question 2 use the assignment's cumulative-weight definition. The unweighted median is included only for the comparison requested in the question. Excluding the single Rs 30 student does not change the median, 10th or 90th percentile, so the reported values are the same for 1,463 and 1,464 students.
 - The Question 3 lines join weighted band means. The figure has no legend: each series is labelled directly at its right end. The largest gap is marked with an arrow and a text label. Hollow markers would indicate a cell with fewer than 30 persons; no cell met that rule.
 - The Python script uses the same CSV files, the same variant filter, the same age bands, and the same weighted-mean formula. It writes its own band table and SVG, so the comparison is independent of the R figure.
 
