@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='590.40pt' height='410.40pt' viewBox='0 0 590.40 410.40'>
+<g class='svglite'>
+<defs>
+  <style type='text/css'><![CDATA[
+    .svglite line, .svglite polyline, .svglite polygon, .svglite path, .svglite rect, .svglite circle {
+      fill: none;
+      stroke: #000000;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-miterlimit: 10.00;
+    }
+    .svglite text {
+      white-space: pre;
+    }
+    .svglite g.glyphgroup path {
+      fill: inherit;
+      stroke: none;
+    }
+  ]]></style>
+</defs>
+<rect width='100%' height='100%' style='stroke: none; fill: #FFFFFF;'/>
+<defs>
+  <clipPath id='cpMC4wMHw1OTAuNDB8MC4wMHw0MTAuNDA='>
+    <rect x='0.00' y='0.00' width='590.40' height='410.40' />
+  </clipPath>
+</defs>
+<g clip-path='url(#cpMC4wMHw1OTAuNDB8MC4wMHw0MTAuNDA=)'>
+<rect x='-0.000000000000064' y='-0.000000000000057' width='590.40' height='410.40' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
+</g>
+<defs>
+  <clipPath id='cpNDIuNTB8NTc2LjQ1fDI2LjczfDMzOS41MQ=='>
+    <rect x='42.50' y='26.73' width='533.95' height='312.78' />
+  </clipPath>
+</defs>
+<g clip-path='url(#cpNDIuNTB8NTc2LjQ1fDI2LjczfDMzOS41MQ==)'>
+<polyline points='42.50,339.51 576.45,339.51 ' style='stroke-width: 1.07; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='42.50,276.96 576.45,276.96 ' style='stroke-width: 1.07; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='42.50,214.40 576.45,214.40 ' style='stroke-width: 1.07; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='42.50,151.84 576.45,151.84 ' style='stroke-width: 1.07; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='42.50,89.29 576.45,89.29 ' style='stroke-width: 1.07; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='42.50,26.73 576.45,26.73 ' style='stroke-width: 1.07; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='61.57,211.66 109.24,235.51 156.92,268.30 204.59,262.06 252.27,292.42 299.94,292.48 347.62,316.04 395.29,314.01 442.96,292.77 490.64,328.72 538.31,336.44 ' style='stroke-width: 1.60; stroke: #D55E00; stroke-linecap: butt;' />
+<polyline points='61.57,151.60 109.24,139.93 156.92,146.65 204.59,162.66 252.27,173.96 299.94,171.36 347.62,166.17 395.29,237.22 442.96,255.21 490.64,215.19 538.31,214.90 ' style='stroke-width: 1.60; stroke: #0072B2; stroke-linecap: butt;' />
+<circle cx='61.57' cy='211.66' r='3.66' style='stroke-width: 1.13; stroke: #D55E00; fill: #D55E00;' />
+<circle cx='109.24' cy='235.51' r='3.66' style='stroke-width: 1.13; stroke: #D55E00; fill: #D55E00;' />
+<circle cx='156.92' cy='268.30' r='3.66' style='stroke-width: 1.13; stroke: #D55E00; fill: #D55E00;' />
+<circle cx='204.59' cy='262.06' r='3.66' style='stroke-width: 1.13; stroke: #D55E00; fill: #D55E00;' />
+<circle cx='252.27' cy='292.42' r='3.66' style='stroke-width: 1.13; stroke: #D55E00; fill: #D55E00;' />
+<circle cx='299.94' cy='292.48' r='3.66' style='stroke-width: 1.13; stroke: #D55E00; fill: #D55E00;' />
+<circle cx='347.62' cy='316.04' r='3.66' style='stroke-width: 1.13; stroke: #D55E00; fill: #D55E00;' />
+<circle cx='395.29' cy='314.01' r='3.66' style='stroke-width: 1.13; stroke: #D55E00; fill: #D55E00;' />
+<circle cx='442.96' cy='292.77' r='3.66' style='stroke-width: 1.13; stroke: #D55E00; fill: #D55E00;' />
+<circle cx='490.64' cy='328.72' r='3.66' style='stroke-width: 1.13; stroke: #D55E00; fill: #D55E00;' />
+<circle cx='538.31' cy='336.44' r='3.66' style='stroke-width: 1.13; stroke: #D55E00; fill: #D55E00;' />
+<circle cx='61.57' cy='151.60' r='3.66' style='stroke-width: 1.13; stroke: #0072B2; fill: #0072B2;' />
+<circle cx='109.24' cy='139.93' r='3.66' style='stroke-width: 1.13; stroke: #0072B2; fill: #0072B2;' />
+<circle cx='156.92' cy='146.65' r='3.66' style='stroke-width: 1.13; stroke: #0072B2; fill: #0072B2;' />
+<circle cx='204.59' cy='162.66' r='3.66' style='stroke-width: 1.13; stroke: #0072B2; fill: #0072B2;' />
+<circle cx='252.27' cy='173.96' r='3.66' style='stroke-width: 1.13; stroke: #0072B2; fill: #0072B2;' />
+<circle cx='299.94' cy='171.36' r='3.66' style='stroke-width: 1.13; stroke: #0072B2; fill: #0072B2;' />
+<circle cx='347.62' cy='166.17' r='3.66' style='stroke-width: 1.13; stroke: #0072B2; fill: #0072B2;' />
+<circle cx='395.29' cy='237.22' r='3.66' style='stroke-width: 1.13; stroke: #0072B2; fill: #0072B2;' />
+<circle cx='442.96' cy='255.21' r='3.66' style='stroke-width: 1.13; stroke: #0072B2; fill: #0072B2;' />
+<circle cx='490.64' cy='215.19' r='3.66' style='stroke-width: 1.13; stroke: #0072B2; fill: #0072B2;' />
+<circle cx='538.31' cy='214.90' r='3.66' style='stroke-width: 1.13; stroke: #0072B2; fill: #0072B2;' />
+<line x1='342.37' y1='316.04' x2='342.37' y2='166.17' style='stroke-width: 0.85; stroke: #404040; stroke-linecap: butt;' />
+<polyline points='339.85,311.68 342.37,316.04 344.89,311.68 ' style='stroke-width: 0.85; stroke: #404040; stroke-linecap: butt;' />
+<polyline points='344.89,170.53 342.37,166.17 339.85,170.53 ' style='stroke-width: 0.85; stroke: #404040; stroke-linecap: butt;' />
+<text x='338.56' y='239.50' text-anchor='end' style='font-size: 8.82px;fill: #333333; font-family: "Arial";' textLength='46.59px' lengthAdjust='spacingAndGlyphs'>Largest gap</text>
+<text x='338.56' y='249.02' text-anchor='end' style='font-size: 8.82px;fill: #333333; font-family: "Arial";' textLength='29.44px' lengthAdjust='spacingAndGlyphs'>47.9 pp</text>
+<text x='549.75' y='339.90' style='font-size: 9.67px; font-weight: bold;fill: #D55E00; font-family: "Arial";' textLength='34.73px' lengthAdjust='spacingAndGlyphs'>Women</text>
+<text x='549.75' y='218.36' style='font-size: 9.67px; font-weight: bold;fill: #0072B2; font-family: "Arial";' textLength='19.34px' lengthAdjust='spacingAndGlyphs'>Men</text>
+</g>
+<g clip-path='url(#cpMC4wMHw1OTAuNDB8MC4wMHw0MTAuNDA=)'>
+<text x='37.57' y='342.66' text-anchor='end' style='font-size: 8.80px;fill: #4D4D4D; font-family: "Arial";' textLength='4.89px' lengthAdjust='spacingAndGlyphs'>0</text>
+<text x='37.57' y='280.11' text-anchor='end' style='font-size: 8.80px;fill: #4D4D4D; font-family: "Arial";' textLength='9.78px' lengthAdjust='spacingAndGlyphs'>20</text>
+<text x='37.57' y='217.55' text-anchor='end' style='font-size: 8.80px;fill: #4D4D4D; font-family: "Arial";' textLength='9.78px' lengthAdjust='spacingAndGlyphs'>40</text>
+<text x='37.57' y='154.99' text-anchor='end' style='font-size: 8.80px;fill: #4D4D4D; font-family: "Arial";' textLength='9.78px' lengthAdjust='spacingAndGlyphs'>60</text>
+<text x='37.57' y='92.44' text-anchor='end' style='font-size: 8.80px;fill: #4D4D4D; font-family: "Arial";' textLength='9.78px' lengthAdjust='spacingAndGlyphs'>80</text>
+<text x='37.57' y='29.88' text-anchor='end' style='font-size: 8.80px;fill: #4D4D4D; font-family: "Arial";' textLength='14.67px' lengthAdjust='spacingAndGlyphs'>100</text>
+<text x='61.57' y='350.74' text-anchor='middle' style='font-size: 8.80px;fill: #4D4D4D; font-family: "Arial";' textLength='22.48px' lengthAdjust='spacingAndGlyphs'>10-14</text>
+<text x='109.24' y='350.74' text-anchor='middle' style='font-size: 8.80px;fill: #4D4D4D; font-family: "Arial";' textLength='22.48px' lengthAdjust='spacingAndGlyphs'>15-19</text>
+<text x='156.92' y='350.74' text-anchor='middle' style='font-size: 8.80px;fill: #4D4D4D; font-family: "Arial";' textLength='22.48px' lengthAdjust='spacingAndGlyphs'>20-24</text>
+<text x='204.59' y='350.74' text-anchor='middle' style='font-size: 8.80px;fill: #4D4D4D; font-family: "Arial";' textLength='22.48px' lengthAdjust='spacingAndGlyphs'>25-29</text>
+<text x='252.27' y='350.74' text-anchor='middle' style='font-size: 8.80px;fill: #4D4D4D; font-family: "Arial";' textLength='22.48px' lengthAdjust='spacingAndGlyphs'>30-34</text>
+<text x='299.94' y='350.74' text-anchor='middle' style='font-size: 8.80px;fill: #4D4D4D; font-family: "Arial";' textLength='22.48px' lengthAdjust='spacingAndGlyphs'>35-39</text>
+<text x='347.62' y='350.74' text-anchor='middle' style='font-size: 8.80px;fill: #4D4D4D; font-family: "Arial";' textLength='22.48px' lengthAdjust='spacingAndGlyphs'>40-44</text>
+<text x='395.29' y='350.74' text-anchor='middle' style='font-size: 8.80px;fill: #4D4D4D; font-family: "Arial";' textLength='22.48px' lengthAdjust='spacingAndGlyphs'>45-49</text>
+<text x='442.96' y='350.74' text-anchor='middle' style='font-size: 8.80px;fill: #4D4D4D; font-family: "Arial";' textLength='22.48px' lengthAdjust='spacingAndGlyphs'>50-54</text>
+<text x='490.64' y='350.74' text-anchor='middle' style='font-size: 8.80px;fill: #4D4D4D; font-family: "Arial";' textLength='22.48px' lengthAdjust='spacingAndGlyphs'>55-59</text>
+<text x='538.31' y='350.74' text-anchor='middle' style='font-size: 8.80px;fill: #4D4D4D; font-family: "Arial";' textLength='22.48px' lengthAdjust='spacingAndGlyphs'>60-64</text>
+<text x='309.48' y='363.21' text-anchor='middle' style='font-size: 11.00px; font-family: "Arial";' textLength='84.44px' lengthAdjust='spacingAndGlyphs'>Age band (years)</text>
+<text transform='translate(17.84,183.12) rotate(-90)' text-anchor='middle' style='font-size: 11.00px; font-family: "Arial";' textLength='126.39px' lengthAdjust='spacingAndGlyphs'>Weighted literacy rate (%)</text>
+<text x='42.50' y='18.69' style='font-size: 12.20px; font-weight: bold; font-family: "Arial";' textLength='428.80px' lengthAdjust='spacingAndGlyphs'>Women's literacy falls steeply with age; the gender gap peaks at 48 points</text>
+<text x='42.50' y='376.45' style='font-size: 7.60px;fill: #595959; font-family: "Arial";' textLength='173.81px' lengthAdjust='spacingAndGlyphs'>Source: PSLM 2019-20 person and household files.</text>
+<text x='42.50' y='384.65' style='font-size: 7.60px;fill: #595959; font-family: "Arial";' textLength='271.55px' lengthAdjust='spacingAndGlyphs'>Sample: 5,677 persons aged 10-64 in rural Balochistan with non-missing literacy.</text>
+<text x='42.50' y='392.86' style='font-size: 7.60px;fill: #595959; font-family: "Arial";' textLength='278.52px' lengthAdjust='spacingAndGlyphs'>Weighted by hhweight. Hollow markers flag cells with &lt;30 persons; none were thin.</text>
+</g>
+</g>
+</svg>

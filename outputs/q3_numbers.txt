@@ -1,0 +1,8 @@
+Q3 literacy sample: 5677
+Q3 women 15-19: 33.3
+Q3 men 15-19: 63.8
+Q3 women 55-59: 3.5
+Q3 men 55-59: 39.7
+Q3 largest gap: 40-44, 47.9 pp (men 55.4, women 7.5)
+Q3 thin cells (<30): 0
+Q3 smallest cell n: 59
