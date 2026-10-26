@@ -1,0 +1,8 @@
+Q2 students (ed_total > 0): 1464
+Q2 plotted in Rs 100-1,000,000: 1463
+Q2 excluded outside range: 1
+Q2 weighted median: Rs 3,500
+Q2 unweighted median: Rs 3,000
+Q2 weighted p10: Rs 600
+Q2 weighted p90: Rs 18,700
+Q2 p90/p10: 31.17
