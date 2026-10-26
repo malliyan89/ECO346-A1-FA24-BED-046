@@ -71,12 +71,13 @@ p <- ggplot(long, aes(x = mid, y = rate, group = sex, colour = sex)) +
     expand = c(0, 0)
   ) +
   labs(
-    title = "Women's literacy falls steeply with age; the gender gap peaks at 48 points",
+    title = "Women's literacy trails men's at every age; the gap peaks at 48 points",
     x = "Age band (years)",
     y = "Weighted literacy rate (%)",
     caption = paste0(
       "Source: PSLM 2019-20 person and household files.\n",
-      "Sample: 5,677 persons aged 10-64 in rural Balochistan with non-missing literacy.\n",
+      "Sample: ", format(nrow(literacy), big.mark = ","),
+      " persons aged 10-64 in rural Balochistan with non-missing literacy.\n",
       "Weighted by hhweight. Hollow markers flag cells with <30 persons; none were thin."
     )
   ) +

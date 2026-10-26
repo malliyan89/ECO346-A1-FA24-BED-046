@@ -63,14 +63,17 @@ p <- ggplot(bins, aes(xmin = start, xmax = end, ymin = 0, ymax = density)) +
     expand = c(0, 0)
   ) +
   labs(
-    title = "The top tenth of students spend 31 times what the bottom tenth spend",
+    title = "Students at the 90th percentile spend 31 times those at the 10th",
     x = "Annual education spending per student (rupees, log scale)",
     y = "Density per log10 unit",
     caption = paste0(
       "Source: PSLM 2019-20 person and household files.\n",
-      "Sample: ", n_students, " students in rural Balochistan with spending > 0; ",
-      n_plotted, " plotted (one below Rs 100 excluded).\n",
-      "Weighted by hhweight; bins are 0.1 log10 units across Rs 100-1,000,000."
+      "Sample: ", format(n_students, big.mark = ","),
+      " students in rural Balochistan with spending > 0; ",
+      format(n_plotted, big.mark = ","), " plotted.\n",
+      "One student at Rs 30 is outside Rs 100-1,000,000 and is excluded; ",
+      "all statistics are weighted by hhweight.\n",
+      "Bins are 0.1 log10 units."
     )
   ) +
   theme_minimal(base_size = 11) +

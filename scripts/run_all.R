@@ -21,6 +21,7 @@ source("scripts/03_literacy.R")
 
 cat("\n== 04 Python replication ==\n")
 py <- Sys.which("python")
+if (!nzchar(py)) py <- Sys.which("python3")
 if (!nzchar(py)) py <- Sys.which("py")
 if (!nzchar(py)) stop("Python not found on PATH; install Python or run 04 manually.")
 status <- system2(py, args = "scripts/04_literacy_python.py")

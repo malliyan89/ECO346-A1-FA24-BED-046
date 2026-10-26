@@ -126,7 +126,7 @@ ax.set_yticks(np.arange(0, 101, 20))
 ax.set_xlabel("Age band (years)")
 ax.set_ylabel("Weighted literacy rate (%)")
 ax.set_title(
-    "Women's literacy falls steeply with age; the gender gap peaks at 48 points",
+    "Women's literacy trails men's at every age; the gap peaks at 48 points",
     loc="left", fontweight="bold", pad=10
 )
 
@@ -139,7 +139,7 @@ for spine in ax.spines.values():
 
 caption = (
     "Source: PSLM 2019-20 person and household files.\n"
-    "Sample: 5,677 persons aged 10-64 in rural Balochistan with non-missing literacy.\n"
+    f"Sample: {len(lit):,} persons aged 10-64 in rural Balochistan with non-missing literacy.\n"
     "Weighted by hhweight. Hollow markers flag cells with <30 persons; none were thin."
 )
 fig.text(0.072, 0.015, caption, ha="left", va="bottom", fontsize=7.6,
