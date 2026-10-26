@@ -1,0 +1,12 @@
+# Local / editor artefacts
+.Rhistory
+.RData
+.Rproj.user/
+__pycache__/
+*.pyc
+~$*.pptx
+
+# QA previews only; deliverables are SVG
+*.png
+*.jpg
+*.jpeg
