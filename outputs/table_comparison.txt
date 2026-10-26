@@ -1,0 +1,4 @@
+Q5 table check: PASS
+Maximum absolute difference before rounding: 0.0000000000
+All 11 bands and counts identical: yes
+All rates agree to one decimal: yes

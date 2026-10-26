@@ -1,0 +1,7 @@
+Q5 (Python) literacy sample: 5677
+Q5 (Python) women 15-19: 33.3
+Q5 (Python) men 15-19: 63.8
+Q5 (Python) women 55-59: 3.5
+Q5 (Python) men 55-59: 39.7
+Q5 (Python) largest gap: 40-44, 47.9 pp
+Q5 (Python) thin cells (<30): 0
