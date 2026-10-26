@@ -5,6 +5,7 @@ rates by age band and sex for variant 6 (rural Balochistan), writes the band
 table, and saves figures/literacy_python.svg.
 """
 
+import re
 from pathlib import Path
 
 import matplotlib
@@ -80,6 +81,7 @@ plt.rcParams.update({
     "xtick.labelsize": 9,
     "ytick.labelsize": 9,
     "svg.fonttype": "none",
+    "svg.hashsalt": "eco346",
 })
 
 fig, ax = plt.subplots(figsize=(8.2, 5.7))
@@ -145,8 +147,16 @@ caption = (
 fig.text(0.072, 0.015, caption, ha="left", va="bottom", fontsize=7.6,
          color="#595959", linespacing=1.2)
 
-fig.savefig(FIG / "literacy_python.svg", format="svg")
+svg_path = FIG / "literacy_python.svg"
+fig.savefig(svg_path, format="svg")
 plt.close(fig)
+
+# Keep the SVG byte-for-byte reproducible: matplotlib writes the current
+# time into the RDF metadata. Replace it with a fixed date.
+svg_text = svg_path.read_text(encoding="utf-8")
+svg_text = re.sub(r"<dc:date>[^<]*</dc:date>",
+                  "<dc:date>2026-10-26T00:00:00</dc:date>", svg_text)
+svg_path.write_text(svg_text, encoding="utf-8")
 
 # ---- Printed numbers ------------------------------------------------------
 w1519 = float(bt.loc[bt["band"] == "15-19", "female_rate"].iloc[0])
